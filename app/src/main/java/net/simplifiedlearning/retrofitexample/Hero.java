@@ -4,26 +4,11 @@ import com.google.gson.annotations.SerializedName;
 
 public class Hero {
 
-    @SerializedName("name")
+    @SerializedName("realname")
     private String name;
-//    private String realname;
-//    private String team;
-//    private String firstappearance;
-//    private String createdby;
-//    private String publisher;
-//    private String imageurl;
-//    private String bio;
-
 
     public Hero(String name) {
         this.name = name;
-//        this.realname = realname;
-//        this.team = team;
-//        this.firstappearance = firstappearance;
-//        this.createdby = createdby;
-//        this.publisher = publisher;
-//        this.imageurl = imageurl;
-//        this.bio = bio;
     }
 
     public String getName() {
